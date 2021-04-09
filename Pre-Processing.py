@@ -51,7 +51,7 @@ def extract_feats_pretrained_cnn():
         
     if not os.path.isdir(feat_dir):
         os.mkdir(feat_dir)
-    #print("save video feats to %s" % (dir_feat))
+
     video_list = glob.glob(os.path.join(video_dest, '*.avi'))
     #print(video_list) 
     
